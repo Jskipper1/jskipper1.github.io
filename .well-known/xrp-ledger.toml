@@ -1,0 +1,19 @@
+[METADATA]
+org_name = "Li9Token"
+org_url = "https://jskipper1.github.io"
+org_description = "Bring best luck to token owners"
+
+[[PRINCIPALS]]
+name = "Li9"
+email = "Li9Token@hotmail.com"
+
+[[ACCOUNTS]]
+address = "raKdvVL9VjWX9LcNkx3QrAaunt4Zx5j3zZ"
+description = "Token Issuing Account"
+
+[[TOKENS]]
+issuer = "raKdvVL9VjWX9LcNkx3QrAaunt4Zx5j3zZ"
+currency = "Li9"
+name = "Li9"
+icon = "https://jskipper1.github.io/Li9Token.png"
+website = "https://jskipper1.github.io"
