@@ -20,14 +20,23 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v6
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: List files
+        run: |
+          echo "=== Repository files ==="
+          find . -type f -print | sort
+          echo "=== .well-known ==="
+          ls -la .well-known || true
+          echo "=== TOML ==="
+          cat .well-known/xrp-ledger.toml || true
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
 
