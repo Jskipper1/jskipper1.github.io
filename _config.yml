@@ -1,2 +1,2 @@
 include: [".well-known"]
-keep_files: ["xrp-ledger.toml"]
+keep_files: [".well-known/xrp-ledger.toml"]
