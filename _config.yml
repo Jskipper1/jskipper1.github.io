@@ -1,4 +1,0 @@
-include: [".well-known"]
-keep_files:
-  - ".well-known/xrp-ledger.toml"
-  - ".well-known/index.html"
