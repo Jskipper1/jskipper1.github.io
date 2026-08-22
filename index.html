@@ -101,17 +101,23 @@ function SwitchLanguage(pLanguage) {
     if (pLanguage == "sc") {
         document.getElementById('scArticle').style.display='';
         document.getElementById('enArticle').style.display='none';
+        document.getElementById('scPurchaseLink').style.display='';
+        document.getElementById('enPurchaseLink').style.display='none';
     }
     else {
         document.getElementById('scArticle').style.display='none';
         document.getElementById('enArticle').style.display='';
+        document.getElementById('scPurchaseLink').style.display='none';
+        document.getElementById('enPurchaseLink').style.display='';
     }
 }
 </script>
 
   <div style="position:fixed;top:0;left:50%;margin-left:-359px;font-size:1.9rem;">
     <a href="#" onclick="SwitchLanguage('en');return false;" style="margin-right:29px;">English</a>
-    <a href="#" onclick="SwitchLanguage('sc');return false;" style="margin-right:29px;">简体中文</a>
+    <a href="#" onclick="SwitchLanguage('sc');return false;" style="margin-right:99px;">简体中文</a>
+    <a href="#" target="_blank" id="enPurchaseLink"><b>Buy Li9 token &gt;&gt;</b></a>
+    <a href="#" target="_blank" id="scPurchaseLink" style="display:none;"><b>购买离九币(Li9) &gt;&gt;</b></a>
   </div>
 
   <div style="position:absolute;top:59px;left:50%;margin-left:-359px;height:89%;overflow-y:scroll;">
@@ -124,8 +130,6 @@ function SwitchLanguage(pLanguage) {
       
       <p style="margin-top:-9px;font-size:27px;">
         &#10050; Li 9 is associated with <b>AI</b>! and all other technology!
-        <br/>
-        <a href="#" target="_blank"><b>Buy Li9 token &gt;&gt;</b></a>
       </p>
       
       <hr style="margin-top:-39px;"/>
@@ -338,8 +342,6 @@ function SwitchLanguage(pLanguage) {
       
       <p style="margin-top:-9px;font-size:27px;">
         &#10050; 离九运，<b>AI</b>和其他所有科技产业加速腾飞的时代！
-        <br/>
-        <a href="#" target="_blank"><b>购买离九币(Li9) &gt;&gt;</b></a>
       </p>
       
       <hr style="margin-top:-39px;"/>
