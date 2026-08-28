@@ -36,19 +36,9 @@ asset_class = "cryptocurrency"
 [[TOKENS.WEBLINKS]]
 url = "https://jskipper1.github.io"
 type = "website"
-title = "Li9 token official website"
+title = "Official website"
 
 [[TOKENS.WEBLINKS]]
 url = "https://x.com/Li9Token"
 type = "website"
-title = "Li9 token official X account"
-
-[[TOKENS.URLS]]
-url = "https://jskipper1.github.io"
-type = "website"
-title = "Li9 token official website"
-
-[[TOKENS.URLS]]
-url = "https://x.com/Li9Token"
-type = "website"
-title = "Li9 token official X account"
+title = "X"
