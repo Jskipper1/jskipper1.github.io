@@ -1,19 +1,54 @@
 [METADATA]
+modified = 2026-08-09T09:09:09.009Z
 org_name = "180-year Grand Cycle"
 org_url = "https://jskipper1.github.io"
 org_description = "Bring best luck to token owners"
+
+[[ACCOUNTS]]
+address = "raKdvVL9VjWX9LcNkx3QrAaunt4Zx5j3zZ"
+network = "main"
+desc = "Li9 Issuer"
 
 [[PRINCIPALS]]
 name = "180-year Grand Cycle"
 email = "Li9Token@hotmail.com"
 
-[[ACCOUNTS]]
+[[ISSUERS]]
 address = "raKdvVL9VjWX9LcNkx3QrAaunt4Zx5j3zZ"
-description = "Token Issuing Account"
+name = "180-year Grand Cycle"
 
-[[TOKENS]]
+# Legacy format (xrpl.org spec)
+[[CURRENCIES]]
+code = "Li9"
 issuer = "raKdvVL9VjWX9LcNkx3QrAaunt4Zx5j3zZ"
+network = "main"
+display_decimals = 9
+
+# XRPL Meta format — carries the icon
+[[TOKENS]]
 currency = "Li9"
+issuer = "raKdvVL9VjWX9LcNkx3QrAaunt4Zx5j3zZ"
 name = "Li9"
+desc = "Digital lucky charm for Li 9 Period(2024 - 2043)!"
 icon = "https://jskipper1.github.io/Li9Token.jpg"
-website = "https://jskipper1.github.io"
+asset_class = "cryptocurrency"
+
+[[TOKENS.WEBLINKS]]
+url = "https://jskipper1.github.io"
+type = "website"
+title = "Li9 token official website"
+
+[[TOKENS.WEBLINKS]]
+url = "https://x.com/Li9Token"
+type = "website"
+title = "Li9 token official X account"
+
+[[TOKENS.URLS]]
+url = "https://jskipper1.github.io"
+type = "website"
+title = "Li9 token official website"
+
+[[TOKENS.URLS]]
+url = "https://x.com/Li9Token"
+type = "website"
+title = "Li9 token official X account"
