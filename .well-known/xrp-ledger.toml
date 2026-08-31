@@ -31,7 +31,7 @@ issuer = "raKdvVL9VjWX9LcNkx3QrAaunt4Zx5j3zZ"
 name = "Li9"
 desc = "Digital lucky charm for Li 9 Period(2024 - 2043)!"
 icon = "https://jskipper1.github.io/Li9Token.jpg"
-asset_class = "cryptocurrency"
+asset_class = "Digital charm"
 
 [[TOKENS.WEBLINKS]]
 url = "https://jskipper1.github.io"
